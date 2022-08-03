@@ -1,0 +1,5 @@
+TSRs:
+Regras de padronização do desenvolvmento em php.
+
+Uma delas é que não é recomendado que um arquivo php crie símbolos (funções, variáveis..) e causem efeito colateral ao mesmo tempo (execute as funções e afins), o ideal é separar os arquivos
+
