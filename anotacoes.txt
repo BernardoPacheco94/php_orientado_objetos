@@ -1,5 +1,21 @@
 TSRs:
 Regras de padronização do desenvolvmento em php.
 
-Uma delas é que não é recomendado que um arquivo php crie símbolos (funções, variáveis..) e causem efeito colateral ao mesmo tempo (execute as funções e afins), o ideal é separar os arquivos
+Uma delas é que não é recomendado que um arquivo php crie símbolos (funções, variáveis..) e causem efeito colateral ao mesmo tempo (execute as funções e afins), o ideal é separar os arquivos.
+
+Função construtora:
+function __construct (): Permite declarar um objeto sem precisar instanciar
+
+Herança:
+para sinalizar a herança é usado o termo extends. que é quando uma classe acessa propriedades de outra classe
+
+Constantes:
+É um tipo de variável que não pode sofrer modificações, náo é usado o $ para declarar
+Para usar a constante em uma classe, é usado o ::
+ex: $programador::ESPECIE; (ESPECIE é a constante)
+
+Namespaces:
+Usado para diferenciar funções com o mesmo nome de classes distintas por exemplo.
+
+
 
